@@ -9,104 +9,217 @@
 
     <link rel="stylesheet" href="../assets/css/all.css">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <!--side-bar-->
-    <div class="side-bar">
-        <div class="logo">
-            <a href="#"><h1>ModaMu</h1></a>
-            <a href="#"><img src="../assets/images/user.png" alt=""></a>
-        </div>
-        <div class="avatar">
-            <div class="avatar-img">
-                <img src="../assets/images/user.png" class="avatar-size">
-            </div>
-            <div class="name-pos">
-                <h2>saeed</h2>
-                <h5>company head</h5>
-            </div>
-        </div>
-        <div class="side-bar-nav">
-            <ul>
-                <li>
-                    <a href="#">
-                        <span><i class="fa fa-home"></i></span>
-                        <span class="nav-link">Dashboard</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span><i class="fa fa-calculator"></i></span>
-                        <span class="nav-link">Ui element</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span><i class="fa fa-walking"></i></span>
-                        <span class="nav-link">Form stuff</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span><i class="fa fa-table"></i></span>
-                        <span class="nav-link">Data table</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span><i class="fa fa-chart-bar"></i></span>
-                        <span class="nav-link">Chart</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span><i class="fa fa-cubes"></i></span>
-                        <span class="nav-link">Components</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <span><i class="fa fa-sign-out-alt"></i></span>
-                        <span class="nav-link">Log out</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
 
-    <!--header start-->
-    <header>
-        <div class="head-inner">
-            <div class="right-part">
-                <form action="#">
-                    <input type="text" placeholder="Search...">
-                    <button><i class="fa fa-search"></i></button>
-                </form>
+    <div class="page-wrap">
+        <!--side-bar-->
+        <div class="side-bar">
+            <div class="logo">
+                <a href="#"><h1>ModaMu</h1></a>
+                <a href="#"><img src="../assets/images/user.png" alt=""></a>
             </div>
-            <div class="left-part">
+            <div class="avatar">
+                <div class="avatar-img">
+                    <img src="../assets/images/user.png" class="avatar-size">
+                </div>
+                <div class="name-pos">
+                    <h2>saeed</h2>
+                    <h5>company head</h5>
+                </div>
+            </div>
+            <div class="side-bar-nav">
                 <ul>
                     <li>
-                        <div class="profile">
-                            <div class="avatar-img">
-                                <img src="../assets/images/user.png" class="avatar-size">
-                            </div>
-                            <div class="avatar-name">
-                                <h3>Saeed</h3>
-                            </div>
-                        </div>
+                        <a href="#">
+                            <span><i class="fa fa-home"></i></span>
+                            <span class="nav-link">Dashboard</span>
+                        </a>
                     </li>
                     <li>
-                        <span><i class="fa fa-envelope"></i></span>
+                        <a href="#">
+                            <span><i class="fa fa-calculator"></i></span>
+                            <span class="nav-link">Ui element</span>
+                        </a>
                     </li>
-                    <li class="have-dots">
-                        <span><i class="fa fa-bell"></i></span>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa fa-walking"></i></span>
+                            <span class="nav-link">Form stuff</span>
+                        </a>
                     </li>
-                    <li class="have-dots">
-                        <span class="bar"><i class="fa fa-bars"></i></span>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa fa-table"></i></span>
+                            <span class="nav-link">Data table</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa fa-chart-bar"></i></span>
+                            <span class="nav-link">Chart</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa fa-cubes"></i></span>
+                            <span class="nav-link">Components</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><i class="fa fa-sign-out-alt"></i></span>
+                            <span class="nav-link">Log out</span>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
-    </header>
+
+        <!--header start-->
+        <header>
+            <div class="head-inner">
+                <div class="right-part">
+                    <form action="#">
+                        <input type="text" placeholder="Search...">
+                        <button><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="left-part">
+                    <ul>
+                        <li>
+                            <div class="profile">
+                                <div class="avatar-img">
+                                    <img src="../assets/images/user.png" class="avatar-size">
+                                </div>
+                                <div class="avatar-name">
+                                    <h3>Saeed</h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="have-dots">
+                            <span><i class="fa fa-envelope"></i></span>
+                        </li>
+                        <li class="have-dots">
+                            <span><i class="fa fa-bell"></i></span>
+                        </li>
+                        <li>
+                            <span class="bar"><i class="fa fa-bars"></i></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <!--main-content-->
+        <div class="main-content">
+            <div class="info-cards">
+                <div class="card">
+                    <div class="card-icon">
+                        <span><i class="fas fa-layer-group"></i></span>
+                    </div>
+                    <div class="card-detail">
+                        <h4>Total stock</h4>
+                        <h2>$15</h2>
+                    </div>
+                    <p>Increased by 60%</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <span><i class="fa fa-money-check-alt"></i></span>
+                    </div>
+                    <div class="card-detail">
+                        <h4>Total profile</h4>
+                        <h2>$15</h2>
+                    </div>
+                    <p>Unique visitors</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <span><i class="fa fa-male"></i></span>
+                    </div>
+                    <div class="card-detail">
+                        <h4>Unique visitors</h4>
+                        <h2>$15</h2>
+                    </div>
+                    <p>Increased by 60%</p>
+                </div>
+            </div>
+            <div class="main-table">
+                <div class="title">
+                    <h2>Role in company</h2>
+                </div>
+                <div class="user-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Email</td>
+                                <td>User Type</td>
+                                <td>Joined</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>saeed</td>
+                                <td>avrpic8@gmail.com</td>
+                                <td>Admin</td>
+                                <td>25 apr, 2021</td>
+                                <td><a href="#" class="btn">Pending</a></td>
+                            </tr>
+                            <tr>
+                                <td>ehsan</td>
+                                <td>avrpic8@yahoo.com</td>
+                                <td>User</td>
+                                <td>25 apr, 2021</td>
+                                <td><a href="#" class="btn">Pending</a></td>
+                            </tr>
+                            <tr>
+                                <td>saeed</td>
+                                <td>avrpic8@gmail.com</td>
+                                <td>Admin</td>
+                                <td>25 apr, 2021</td>
+                                <td><a href="#" class="btn">Pending</a></td>
+                            </tr>
+                            <tr>
+                                <td>ehsan</td>
+                                <td>avrpic8@yahoo.com</td>
+                                <td>User</td>
+                                <td>25 apr, 2021</td>
+                                <td><a href="#" class="btn">Pending</a></td>
+                            </tr>
+                            <tr>
+                                <td>saeed</td>
+                                <td>avrpic8@gmail.com</td>
+                                <td>Admin</td>
+                                <td>25 apr, 2021</td>
+                                <td><a href="#" class="btn">Pending</a></td>
+                            </tr>
+                            <tr>
+                                <td>ehsan</td>
+                                <td>avrpic8@yahoo.com</td>
+                                <td>User</td>
+                                <td>25 apr, 2021</td>
+                                <td><a href="#" class="btn">Pending</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        $(document).ready(function (){
+            $(".bar").click(function (){
+                $(".side-bar").toggleClass("hide")
+                $("header, .main-content").toggleClass("side-left")
+            })
+        })
+
+    </script>
 </body>
 </html>
